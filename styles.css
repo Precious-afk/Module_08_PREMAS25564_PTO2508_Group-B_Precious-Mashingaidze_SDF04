@@ -1,0 +1,134 @@
+/* Footer Styling */
+.footer {
+  background-color: #68968c; 
+  color: #2d2d2d;
+  padding: 40px 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+/* Newsletter section */
+.footer-newsletter h3 {
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+  color:#2d2d2d
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.subscribe-form input {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  flex: 1 1 220px;
+}
+
+.subscribe-form button {
+  background-color: #d46b3e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: Background 0.3s;
+}
+
+.subscribe-form button:hover {
+  background-color: #b65932;
+}
+
+/* Footer columns */
+.footer-links h4,
+.footer-tech h4 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.footer-links ul,
+.footer-tech ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li,
+.footer-tech li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #2d2d2d;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffffff;
+}
+
+/* Bottom line and logo */
+.footer hr {
+  margin: 30px 0;
+  border: 0;
+  border-top: 2px solid #b08b69;
+}
+
+.footer-bottom {
+  text-align: left;
+  margin-top: 10px;
+  
+}
+
+.footer-logo {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+
+}
+
+.footer-logo .code {
+    color:#ffffff;
+    font-weight:600;
+}
+
+.footer-logo .space{
+    color:#ffffff;
+    font-weight: 300;
+}
+
+.footer-logo .orange{
+    color:#d46b3e;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subscribe-form button {
+    width: fit-content;
+  }
+}
+.footer-logo {
+    text-align:center;
+}
